@@ -19,7 +19,7 @@ Clone repository:
 
 Start project: 
 
-``` npm run start ```
+``` open with live server ```
 
 ## Link ##
 https://danyaliupinin.github.io/aim-game-marathon/
