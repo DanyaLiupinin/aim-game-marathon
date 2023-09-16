@@ -1,8 +1,10 @@
+
 const startButton = document.querySelector('.start')
 const screens = document.querySelectorAll('.screen')
 const timeButton = document.querySelector('.time-list')
 const board = document.querySelector('#board')
 const timeEl = document.querySelector('#time')
+
 
 const back = [
     'https://i.cbc.ca/1.5359228.1577206958!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/smudge-the-viral-cat.jpg',
@@ -16,6 +18,8 @@ const back = [
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgwsTcvZO4NdxUU0pgZFbSfMVbEaoNf9B0XQ&usqp=CAU',
     'https://i.pinimg.com/564x/a7/45/d4/a745d490ae6782b87ede7ceed74835eb.jpg'
 ]
+
+
 
 let time = 0
 let score = 0
@@ -49,7 +53,7 @@ function setTime(value) {
 
 function createRandomCircle() {
     const circle = document.createElement('div')
-    const size = getRandomNumber(30, 100)
+    const size = getRandomNumber(50, 100)
     const { width, height } = board.getBoundingClientRect()
     const x = getRandomNumber(0, width - size)
     const y = getRandomNumber(0, height - size)
