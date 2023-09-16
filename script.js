@@ -20,7 +20,6 @@ const back = [
 ]
 
 
-
 let time = 0
 let score = 0
 
